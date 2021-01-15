@@ -199,40 +199,42 @@ font-weight: 300;
 }
 
 .landing-box-1 h1 {
-    /* text-align: center; */
-    font-size: 2.3rem;
+    text-align: center; 
+    font-size: 1.8rem;
     margin-top: 60px;
     color: white;
     font-weight: lighter;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    line-height: 1.7;
    } 
 
 
 .landing-box-1 p {
-    align-items: left;
-    /* text-align: center; */
-    font-size: 1.3rem;
+    text-align: center;
+    font-size: 1rem;
     color: white;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     padding-top: 2%;
+    padding-right: 2%;
+    padding-left: 2%;
 }
-
 
 /* Discover more scroll to next section */
 
 .landing-box-1 .homeButton{
     display: flex;
-    justify-content: start;
+    justify-content: center;
     text-align: center;
 }
 
  .button2{
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     border: solid 0.2px white;
     background-color:transparent;
-    margin-top: 20px;
+    margin-top: 100px;
     /* padding-left: 20px;
     padding-right: 20px; */
     padding: 15px;
@@ -319,16 +321,27 @@ font-weight: 300;
             padding-left: 5%; 
             font-size: 3.3rem;
             margin-top: 250px;
+            text-align: start; 
+            letter-spacing: 10px;
         } 
 
         .landing-box-1 p{
             font-size: 1.5rem;
             letter-spacing: 2px;
-            padding-left: 5%; 
+            padding-left: 5%;
+            text-align: start; 
+            letter-spacing: 5px; 
+        }
+     
+
+        .landing-box-1 .homeButton{
+            justify-content: start;
         }
 
         .button2{
-            margin-left: 5%; 
+            margin-left: 5%;
+            font-size: 1.5rem; 
+            margin-top: 20px;
         }
 
     }
@@ -365,20 +378,21 @@ font-weight: 300;
 .about-us h1 {
     color: #D6AB58;
     font-family: 'Roboto', sans-serif;
-    margin-top: 80px;
+    margin-top: 100px;
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: lighter;
-    letter-spacing: 8px;
+    letter-spacing: 5px;
 }
+
 .about-us p{
     color:#615E5D;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-align: center;
     padding-top: 10%;
    /*  margin-bottom: 45px; */
-    padding-right: 10%;
-    padding-left: 10%;
+    padding-right: 5%;
+    padding-left: 5%;
     line-height: 1.7;
 }
 
@@ -427,24 +441,17 @@ font-weight: 300;
     padding: 5%;
 }
 
-
-
-
-
-
-
-.missionBox h1{
+.missionBox h1 {
     font-size: 1.5rem;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 4px;
     text-align: center;
     color: white;
     font-weight: 500;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     margin-top: 1rem;
 }
-
-.missionBox p{
+.missionBox p {
     font-size: 1rem;
     font-family: 'Raleway', sans-serif;
     text-align: center;
@@ -452,8 +459,8 @@ font-weight: 300;
     color: white;
     padding-right: 5%;
     padding-left: 5%;
+    padding-bottom: 5%;
 }
-
 
 /*------ Choose us section -----*/
 #choose-us{
@@ -468,14 +475,14 @@ font-weight: 300;
     width: 100%;
 }
 
-.choose-us h1{
-    color:#D6AB58;
+.choose-us h1 {
+    color: #D6AB58;
     font-family: 'Roboto', sans-serif;
-    margin-top: 150px;
+    margin-top: 100px;
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: lighter;
-    letter-spacing: 8px;
+    letter-spacing: 5px;
 }
 
 .choose-heading h2 {
@@ -505,14 +512,24 @@ font-weight: 300;
     padding-left: 15%; */
 }
 
-.chooseimage-heading p{
+/* .chooseimage-heading p{
     justify-content: center;
     text-align: center;
     font-size: 1.1rem;
     color: #615E5D;
-    margin-bottom: 150px;
-   /*  padding-right: 25%;
-    padding-left: 25%; */
+    margin-bottom: 20px;
+  
+} */
+.chooseimage-heading p {
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem;
+    color: #615E5D;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    line-height: 1.7;
+    padding-right: 5%;
+    padding-left: 5%;
 }
 
 /*  .heading2{
@@ -539,6 +556,9 @@ font-weight: 300;
  /*  border:1px solid red;  */
  } 
 
+
+
+
 /* ------ Team section ------ */
 #team-section{
     display: flex;
@@ -563,9 +583,9 @@ font-weight: 300;
 }
 
 .team h1 {
-    /* text-align: center; */
+    text-align: center;
     font-family: roboto;
-    font-size: 4rem;
+    font-size: 1.8rem;
     margin-top: 60px;
     color: white;
     font-weight: 500;
@@ -614,9 +634,12 @@ font-weight: 300;
 }
 
 .card-text {
-    font-family:inherit;
+    font-family: inherit;
     line-height: 2;
-    font-weight:500;
+    font-weight: 500;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 5%;
 }
 
 .box-image{
@@ -669,6 +692,11 @@ font-weight: 300;
     .card-title {
        text-align:start;
     }
+    .card-text {
+        padding-right: 0;
+        padding-left: 0;
+        padding-top: 0;
+    }
     
     
 /* .card-text {
@@ -676,6 +704,8 @@ font-weight: 300;
 } */
 .team h1 {
     padding-left: 8%;
+    font-size: 4rem;
+    text-align: start;
    } 
      
  }
@@ -736,45 +766,50 @@ font-weight: 300;
     font-family: 'Roboto', sans-serif;
     margin-top: 80px;
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: lighter;
-    letter-spacing: 8px;
+    letter-spacing: 5px;
 }
+
 .investment-opportunity p{
-    color:#615E5D;
-    font-size: 1.2rem;
+    color: #615E5D;
+    font-size: 1.1rem;
     text-align: center;
-    padding-top: 2%;
-   /*  margin-bottom: 45px; */
-    padding-right: 25%;
-    padding-left: 25%;
+    padding-top: 10%;
+    /* margin-bottom: 45px; */
+    padding-right: 5%;
+    padding-left: 5%;
     line-height: 1.7;
 }
 
+  
 .investor-group{
     color: white;
     width: 100%;
 }
 
 .investor-group h1 {
-    color:  #160902;
+    color: #160902;
     font-family: 'Roboto', sans-serif;
-    margin-top: 150px;
+    margin-top: 100px;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-weight: lighter;
     letter-spacing: 3px;
 }
-.investor-group p{
-    color:#615E5D;
-    font-size: 1.2rem;
+
+.investor-group p {
+    color: #615E5D;
+    font-size: 1rem;
     text-align: center;
-    padding-top: 2%;
-   /*  margin-bottom: 45px; */
-    padding-right: 28%;
-    padding-left: 28%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
     line-height: 1.7;
 }
+
+
 
 /* Images container */
 .myContainer{
@@ -831,7 +866,7 @@ font-weight: 300;
     font-family: inherit;
     text-align: center;
     color: #615E5D;
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-top: 5px;
 }
 
@@ -895,6 +930,7 @@ font-weight: 300;
         margin-top: 300px;
         font-size: 2.8rem;
         padding-left: 2%;
+        letter-spacing: 8px;
     }
     .about-us p {
         font-size: 1.5rem;
@@ -916,7 +952,9 @@ font-weight: 300;
     
     .missionBox h1{
         font-size: 2.2rem;
-        font-weight: 500;
+        font-weight: 500; 
+        margin-bottom: 3rem;
+        margin-top: 1rem;
     }
 
     .missionBox p{
@@ -925,7 +963,12 @@ font-weight: 300;
         padding-right: 5%;
         padding-left: 5%;
     }
-    
+
+    .choose-us h1 {
+        font-size: 2.8rem;
+        letter-spacing: 8px;
+    }
+   
     .chooseimage-heading p{
         padding-right: 15%;
         padding-left: 15%;
@@ -938,7 +981,35 @@ font-weight: 300;
     .investment-opportunity h1 {
         margin-top: 250px;
         font-size: 2.8rem;
+        letter-spacing: 8px;
     }
+    .investment-opportunity p{
+        padding-right: 25%;
+        padding-left: 25%;
+        padding-top: 2%;
+        
+    }
+
+    .investor-group h1 {
+        margin-top: 150px;
+        font-size: 2rem;
+    }
+
+    .investor-group p {
+        color: #615E5D;
+        font-size: 1.2rem;
+        text-align: center;
+        padding-top: 2%;
+        /* margin-bottom: 45px; */
+        padding-right: 28%;
+        padding-left: 28%;
+        line-height: 1.7;
+    }
+    .investor-image h5 {
+        font-size: 1.2rem;
+        margin-top: 5px;
+    }
+    
 
   
 }
@@ -1272,17 +1343,15 @@ form .form-control:placeholder {
     padding-top: 3rem;
 }
 
-
 .contact-image p {
     text-align: center;
     color: white;
     font-family: inherit;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     padding-top: 1rem;
-    padding-right: 20%;
-    padding-left: 20%;
+    line-height: 1.9;
 }
- 
+
 
 .form-input {
     border: 1px solid #C9C9C9;
@@ -1290,14 +1359,16 @@ form .form-control:placeholder {
     /* margin-left: 10px; */
 }
 
+
 .form-input h2 {
     color: #160902;
     font-family: inherit;
     font-weight: lighter;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     letter-spacing: .35rem;
     text-align: start;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .form-input h5 {
@@ -1337,30 +1408,69 @@ form .form-control:placeholder {
     box-shadow: none;
 }
 
+
 #Terms {
     background-color: rgba(238, 241, 241, 0.4);
     display: flex;
-    padding-right: 15%;
-    padding-left: 15%;
-   /*  height: 100%;
-    width: 100%; */
+    padding-right: 5%;
+    padding-left: 5%;
 }
 
-.terms-text h1{
-    padding-top: 15%;
+.terms-text h1 {
+    padding-top: 10%;
     padding-bottom: 2%;
     color: #160902;
     font-family: inherit;
-    font-weight: lighter;
-    font-size: 1.8rem;
+    font-weight: bold;
+    font-size: 1.2rem;
     letter-spacing: .35rem;
-    text-align: start;
+    text-align: center;
     margin-top: 1rem;
 }
 
 .terms-text p{
     padding-bottom: 15%;
     line-height: 2;
-    
+    text-align: center;
+    margin-top: 1.5rem;
 }
+ 
+
+
+/*-- Media query for larger screens (desktop) --*/
+
+@media (min-width:770px) and (max-height: 1883px)   {
+    .contact-image p {
+        text-align: center;
+        font-size: 1.1rem;
+        padding-top: 1rem;
+        padding-right: 20%;
+        padding-left: 20%;
+    }
+
+    .form-input h2 {
+        color: #160902;
+        font-family: inherit;
+        font-weight: lighter;
+        font-size: 1.5rem;
+        letter-spacing: .35rem;
+        text-align: start;
+        margin-top: 1rem;
+    }
+
+    #Terms {
+        padding-right: 15%;
+        padding-left: 15%;
+    }
+     .terms-text h1 {
+        text-align: start;
+    }
+    
+    .terms-text p{
+        padding-bottom: 15%;
+        line-height: 2;
+        text-align: start;
+    }
+   
+   } 
 
