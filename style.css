@@ -113,16 +113,13 @@ font-weight: 300;
     color:#D6AB58;
    
 }
-
-
-
-.logo{
+ .logo{
     min-width: 70px;
     max-width: 70px;
     margin-left: 15px;
     border: none;
 }
-
+ 
 
 /* For responsivity of hamburger menu .row is needed  */
 .row {
