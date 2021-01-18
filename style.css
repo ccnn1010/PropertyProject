@@ -436,6 +436,9 @@ font-weight: 300;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 5%;
+    box-shadow: 0 10px 20px rgba(22, 9, 2, 0.5)  ; 
+	-webkit-box-shadow: 0 10px 20px rgba(22, 9, 2, 0.5)  ; 
+	-moz-box-shadow: 0 10px 20px rgba(22, 9, 2, 0.5)  ; 
 }
 
 .missionBox h1 {
