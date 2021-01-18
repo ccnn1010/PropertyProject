@@ -19,3 +19,14 @@
            }
         });
     });
+
+
+    $(document).ready(function() {
+        $(window).scroll(function() {
+           if($(this).scrollTop() > 200) { 
+               $('.navbar').addClass('scrolled');
+           } else {
+               $('.navbar').removeClass('scrolled');
+           }
+        });
+    });

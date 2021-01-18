@@ -1118,186 +1118,6 @@ font-weight: 300;
 }
 
 
-
-
-/*-- Contact Us page --*/
-
-
-/*-- contact-box-1 contact form --*/
-
-.contact-box-1{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    background: linear-gradient(to right, hsla(244, 59%, 21%, 0.9), hsla(168, 53%, 52%, 0.8)), url('./img/contact-page-background-image-2.jpg');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    overflow:hidden;
-    padding-top: 10px;
-    padding-bottom: 50px;
- }
- 
- .contact-box-1 .btn{
-     padding: 8px;
- }
- 
- .contact-box-1 h2{
-     text-align: left;
-     font-size: 2.2rem;
-     font-weight: bold;
-     color: white;
- }
- 
- .contact-box-1 p{
-     font-size: 1.2rem;
-     text-align: left;
-     padding-top: 8px;
-     color: white;
- }
-
-.color-text{
-    color:#00FFFB; 
-    cursor: pointer;
-}
-
-
-.color-text:hover{
-    color: rgb(201, 166, 206);
-}
-
-
-.defaultContactFormName, .defaultContactFormEmail, .exampleFormControlTextarea2{
-    background-color: #BED5CF;
-    border: none;
-    opacity: 70%;
-    font-weight: bold;
-} 
-
-#exampleFormControlTextarea2{
-    padding-bottom: 30px;
-}
-
-
-form .form-control::-webkit-input-placeholder { 
-    color: rgb(137, 137, 148);
-    font-size: 0.9rem;
-  }
-  
-form .form-control::-moz-placeholder {
-    color: white;
-    font-size: 0.9rem;
-  }
-form .form-control:-ms-input-placeholder {
-    color: white;
-    font-size: 0.9rem;
-  }
-  
-form .form-control:placeholder {
-    color: white;
-    font-size: 0.9rem;
-  }
-
-  .form-control {
-    color: white;
-} 
-
-
-/*-- send button --*/
-
-.btn{
-    background-color:transparent;
-    border-color: white;
-    font-weight: bold;
-    padding-left: 255px;
-    padding-right: 255px;
-}
-
-.btn:hover {
-    color:white;
-    box-shadow: inset 0 -3em 0 rgba(0, 255, 251, 0.5) ;
-    background-color: transparent;
-    border-color: transparent;
-}
-
-
-
-/*-- contact-box-2 --*/
-
-.contact-box-2{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding-top: 10px;
-    padding-bottom: 40px; 
-}
- 
- .contact-box-2 h6{
-    margin-top: 60px;
-    margin-bottom: 20px;
-    font-size: 1.1rem;
-    font-weight: bold;
-    color: #69696C;
-    padding-left: 10%;
-}
-
-.contact-box-2 p{
-    text-align: start;
-    font-size: 1rem;
-    color: #69696C;
-    line-height: 5px;
-    padding-left: 10%;
-}
-
-
-/*--  Map --*/
- 
-.google-maps{
-    overflow:hidden;
-    padding-bottom:40%;
-    position:relative;
-    height:0;
-}
-.google-maps iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-    padding-right: 10%;
-    padding-left: 10%;
-}
-
-
-
-/*-- Media query for larger screens (desktop) --*/
-
-@media (min-width:770px) and (max-height: 1883px)   {
-     .contact-box-1 h2 {
-       padding-top: 40px;
-    } 
-}
- 
-    
-/*-- iphone 5 media query --*/
-
-@media (max-width: 360px) { 
-    .contact-box-1 h2 {
-        font-size: 1.8rem;
-    }
-    .contact-box-1 p {
-        font-size: 1.1rem;
-    }  
-}
-
-
-
- 
-
-
-
-
  /* Bootstrap container-fluid */
 
  .container-fluid {
@@ -1403,7 +1223,15 @@ form .form-control:placeholder {
     background-color: #160902;
     color: #D6AB58;
     box-shadow: none;
+    border-color: #160902;
 }
+
+.btn-outline-info {
+    color: white;
+    border-color: #D6AB58;
+}
+
+
 
 
 #Terms {
@@ -1680,3 +1508,212 @@ form .form-control:placeholder {
     
    } 
 
+
+   
+/* Projects page */
+
+#projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+    background: #0F0E2E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgba(22, 9, 2, 0.75), rgba(22, 9, 2, 0.75)), url(./img/masterbed2.jpg); 
+    background: linear-gradient(to right,  rgba(22, 9, 2, 0.75), rgba(22, 9, 2, 0.75)), url(./img/masterbed2.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  /*   object-fit: contain; */
+   /*  max-width:100%;
+max-height:100%; */
+}
+
+
+
+.projects-box-1{
+    overflow:hidden;
+    justify-content: flex-start; 
+    align-items: center;
+}
+
+.projects-box-1 h1 {
+    text-align: center; 
+    font-size: 1.8rem;
+    margin-top: 60px;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 10px;
+   } 
+
+    
+
+   #property-description {
+       margin-bottom: 200px;
+   }
+
+
+  #property-description h1 {
+    color: #D6AB58;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: start;
+    font-size: 1.6rem;
+    font-weight: lighter;
+    letter-spacing: 5px;
+}
+
+
+#property-description p {
+    color: #615E5D;
+    font-family: raleway;
+    margin-top: 10px;
+    text-align: start;
+    font-size: 1.3rem;
+}
+
+.property-image {
+    display: flex;
+    justify-content: center;
+}
+
+.property-image img {
+    align-items: center;
+    width: 300px;
+    height: 250px;
+}
+
+.slide-image{
+    display: inline-block;
+   /*  margin-left:-4px; */
+   /* margin-left:40px; */
+  }
+  .slide-image img{
+    width:100%;
+    height:auto;
+    margin-bottom: 100px;
+  }
+  
+  body .carousel-indicators li{
+    background-color:#EBD5AB;
+  }
+  /* body .carousel-control-prev-icon,
+  body .carousel-control-next-icon{
+    background-color:#EBD5AB;
+  } */
+  body .no-padding{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  
+ @media (min-width:770px) and (max-height: 1366px)   {
+    .property-image img {
+        width: 450px;
+        height: 300px;
+    }
+
+    
+.slide-image{
+    display: inline-block;
+   /*  margin-left:-4px; */
+   margin-left:40px;
+  }
+
+  .re-order .row .first {
+    order: 2;
+  }
+  .re-order .row .second {
+    order: 1;
+  }
+}
+  
+
+/* @media (min-width: 768px) { */
+    /* .re-order .row {
+      display: flex;
+      display: -ms-flex;
+      flex-direction: column;
+    } */
+ 
+/*   } */
+
+
+/* Blog page */
+
+#blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+    background: #0F0E2E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgba(22, 9, 2, 0.75), rgba(22, 9, 2, 0.75)), url(./img/masterbed2.jpg); 
+    background: linear-gradient(to right,  rgba(22, 9, 2, 0.75), rgba(22, 9, 2, 0.75)), url(./img/masterbed2.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  /*   object-fit: contain; */
+   /*  max-width:100%;
+max-height:100%; */
+}
+
+
+
+.blog-box-1{
+    overflow:hidden;
+    justify-content: flex-start; 
+    align-items: center;
+}
+
+.blog-box-1 h1 {
+    text-align: center; 
+    font-size: 1.8rem;
+    margin-top: 60px;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 10px;
+   } 
+
+
+   
+
+/* Contact page */
+
+#contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+    background: #0F0E2E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgba(22, 9, 2, 0.75), rgba(22, 9, 2, 0.75)), url(./img/masterbed2.jpg); 
+    background: linear-gradient(to right,  rgba(22, 9, 2, 0.75), rgba(22, 9, 2, 0.75)), url(./img/masterbed2.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  /*   object-fit: contain; */
+   /*  max-width:100%;
+max-height:100%; */
+}
+
+
+
+.contact-box-1{
+    overflow:hidden;
+    justify-content: flex-start; 
+    align-items: center;
+}
+
+.contact-box-1 h1 {
+    text-align: center; 
+    font-size: 1.8rem;
+    margin-top: 60px;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 10px;
+   } 
