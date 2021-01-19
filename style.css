@@ -1015,6 +1015,47 @@ font-weight: 300;
 }
 
 
+/*-- Scroll up to top button --*/
+#scroll-top{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 5%;
+}
+
+#scroll-top__bg-grey{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 5%;
+    background-color: rgba(238, 241, 241, 0.4);
+}
+
+
+.cta-button {
+    text-align: end;
+    width: 100%;
+    margin-bottom: 50px;
+    padding-right: 2%;
+}
+
+  .cta-button a {
+    background-color: #281D0E;
+    opacity: 50%; 
+    display: inline-block;
+    color:white;
+    text-decoration: none;
+    padding: 0.5em 0.5em;
+    border-radius: 10%;
+    font-size: 2em;
+}
+    
+.cta-button a:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #281D0E;
+    opacity: 70%; 
+}  
+
+
 
 /*-- Footer --*/
 
