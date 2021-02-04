@@ -1933,6 +1933,7 @@ max-height:100%; */
    } 
 
 
+
    /* table section */
 
    #table{
@@ -2118,8 +2119,82 @@ max-height:100%; */
     font-size: 0.9rem;
    }
 
+   .accordion>.card {
+    outline:none;
+    border-style: none;
+   }
 
-  
+
+   #accordionExample .card-body {
+ 
+ 
+     padding-top: 0;
+     padding-bottom: 1.25rem;
+     padding-left: 5rem;
+     padding-right: 5rem;
+}
+
+   .accordion>.card>.card-header {
+    background-color: white;
+    outline:none;
+    border-style: none;
+}
+
+/* #accordionExample {
+    display: flex;
+   
+} */
+
+
+
+#accordionExample .btn {
+    background-color: transparent;
+    color: #615E5D;
+    font-size: 1.3rem;
+    font-family: roboto;
+    font-weight:normal;
+  /*   padding-left: 5%; */
+    outline:none;
+    border-style: none;
+}
+
+
+
+
+#accordionExample .btn:hover, #accordionExample .btn:active, #accordionExample .btn:focus { 
+    outline: none;
+     border-style: none; 
+     text-decoration: none;
+    }
+
+    
+/* 
+#accordionExample h4 .fas {
+       line-height: 1.7;
+}
+   */
+
+.fas {
+    color: #D6AB58;
+    margin-right: 20px;
+    font-size: 1.3rem;
+    line-height: inherit;
+}
+
+
+
+/*  
+ .fa-plus:before {
+    vertical-align: middle;
+}
+
+#accordionExample h4 {
+    vertical-align: middle;
+} */
+ 
+/* i.fas {
+    vertical-align: middle;
+} */
 
 
    @media (min-width:992px) and (max-height: 1883px)   {
@@ -2167,9 +2242,6 @@ max-height:100%; */
         letter-spacing: 5px;
         text-align: left;
         }
-     
-    
-
-     
+      
     
    } 
