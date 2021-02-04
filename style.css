@@ -1043,7 +1043,7 @@ font-weight: 300;
     display: inline-block;
     color:white;
     text-decoration: none;
-    padding: 0.5em 0.5em;
+    padding: 0.2em 0.5em;
     border-radius: 10%;
     font-size: 1.3em;
 }
@@ -2118,6 +2118,29 @@ max-height:100%; */
     text-align: center;
     font-size: 0.9rem;
    }
+
+
+   #faq-heading h1 {
+    color: #D6AB58;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    letter-spacing: 5px;
+}
+
+#faq-heading p{
+    color: #615E5D;
+    font-size: 1.3rem;
+    text-align: center;
+   /*  margin-top: 50px; */
+    margin-bottom: 100px;
+    padding-right: 5%;
+    padding-left: 5%;
+    line-height: 1.7;
+}
 
    .accordion>.card {
     outline:none;

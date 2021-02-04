@@ -1,15 +1,5 @@
-/* $(window).scroll(function(){
-    $('nav').toggelClass('scrolled', $(this).scrollTop() > 200);
-});
- */
-/* 200 represents how many pixels down */
 
-/* 
- $(window).scroll(function(){
-    $('nav').toggelClass('scrolled', $(this).scrollTop() > 700);
-     
-    });  */
-
+//Scroll change from solid to transparent
     $(document).ready(function() {
         $(window).scroll(function() {
            if($(this).scrollTop() > 900) { 
@@ -31,7 +21,7 @@
         });
     });
 
-
+//Accordion plus to minus on contact page
     $(document).ready(function(){
         $(".collapse.show").each(function(){
             $(this).prev(".card-header").find(".fas").addClass("fa-minus").removeClass("fa-plus");
